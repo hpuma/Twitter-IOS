@@ -80,19 +80,19 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBz-wS-INm">
                                             <rect key="frame" x="93" y="41" width="301" height="72"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUB-fq-EuN">
-                                            <rect key="frame" x="89" y="11" width="82" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUB-fq-EuN">
+                                            <rect key="frame" x="93" y="11" width="301" height="22"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="82" id="Rxq-Rx-KCE"/>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="TXA-e0-ndc"/>
                                                 <constraint firstAttribute="height" constant="22" id="V83-ax-leg"/>
                                                 <constraint firstAttribute="width" constant="82" id="tlh-Io-02t"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -100,12 +100,13 @@
                                     <constraints>
                                         <constraint firstItem="QBz-wS-INm" firstAttribute="top" secondItem="DUB-fq-EuN" secondAttribute="bottom" constant="4" id="1UT-aw-1Rx"/>
                                         <constraint firstItem="QBz-wS-INm" firstAttribute="leading" secondItem="kLa-xi-mL6" secondAttribute="trailing" constant="8" id="BWa-S0-oOK"/>
-                                        <constraint firstItem="DUB-fq-EuN" firstAttribute="top" secondItem="aBY-X9-oWi" secondAttribute="topMargin" id="RX1-4S-p7q"/>
+                                        <constraint firstItem="DUB-fq-EuN" firstAttribute="top" secondItem="aBY-X9-oWi" secondAttribute="topMargin" id="INy-62-TgF"/>
+                                        <constraint firstItem="DUB-fq-EuN" firstAttribute="leading" secondItem="kLa-xi-mL6" secondAttribute="trailing" constant="8" id="Lwq-Jy-vJG"/>
                                         <constraint firstItem="QBz-wS-INm" firstAttribute="trailing" secondItem="aBY-X9-oWi" secondAttribute="trailingMargin" id="Rc1-Wi-LLv"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="DUB-fq-EuN" secondAttribute="trailing" id="SKH-Ac-Bc0"/>
                                         <constraint firstItem="kLa-xi-mL6" firstAttribute="top" secondItem="aBY-X9-oWi" secondAttribute="topMargin" id="T1Q-yF-V10"/>
                                         <constraint firstItem="QBz-wS-INm" firstAttribute="bottom" secondItem="aBY-X9-oWi" secondAttribute="bottomMargin" id="cLB-TO-qrH"/>
                                         <constraint firstItem="kLa-xi-mL6" firstAttribute="leading" secondItem="aBY-X9-oWi" secondAttribute="leadingMargin" id="gXB-JH-ayn"/>
-                                        <constraint firstItem="DUB-fq-EuN" firstAttribute="leading" secondItem="kLa-xi-mL6" secondAttribute="trailing" constant="8" id="l42-xs-g7a"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
